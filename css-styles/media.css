@@ -1,4 +1,13 @@
+
+
 @media only screen and (max-width: 480px) {
+    /* nav section  */
+    nav ul{
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    
+    /* First section Top Player*/
     .f-sec{
         width: 100%;
         height: 100%;
@@ -11,18 +20,22 @@
         flex-direction: column;
         justify-content: center;
   }
+  .player img{
+    padding-left: 0%;
+    }
+
+  /* Top Blog */
   .blog-details{
       text-align: center;
   }
-  .player img{
-      padding-left: 0%;
-  }
-    .main-blog {
+      .main-blog {
         grid-template-columns: repeat(1, 1fr);
     }
     .top-blog{
         flex-direction: column;
     }
+
+    /* Lates Course section sec  two */
     .sec-two{
         width: 100%;
     }
@@ -37,6 +50,13 @@
 }
 
 @media only screen and (min-width:689px) and (max-width:991px) {
+     /* nav section  */
+    nav ul{
+       margin-left: 250px;
+    }
+
+    /* First section Top Player*/
+
     .f-sec{
         width: 100%;
         height: 100%;
@@ -49,7 +69,9 @@
         flex-direction: column;
         justify-content: center;
   }
- 
+
+ /* Lates Course section sec  two */
+
     .sec-two{
     width: 100%;
     }
@@ -59,16 +81,25 @@
 }
 
 @media only screen and (min-width:992px) and (max-width:1312px) {
+    /* nav section  */
+    nav ul{
+        margin-left: 300px;
+     }
+      /* First section Top Player*/
     .f-sec{
         width: 80%;
         height: 80%;
         background-color: #FFFF;
     }
 
+    /* Lates Course section sec  two */
+
     .sec-two{
         width: 80%;
         height: 80%;
         }
+        
+        /* footer section  */
         
         footer div{
          width: 80%;

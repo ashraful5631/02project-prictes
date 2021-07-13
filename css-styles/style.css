@@ -4,6 +4,41 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+
+/* nav bar */
+nav{
+    display: flex;
+    background-color: #562EFF;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+.logo{
+    width: 41px;
+    height: 51px;
+}
+nav ul{
+    display: flex;
+    margin-left: 400px;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav p{
+    margin-left: 20px;
+    color: white;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+
+/* First section */
 .top-player{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -32,6 +67,7 @@ main{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
 }
 .h2{
     margin-left: 30px;
@@ -44,8 +80,7 @@ hr{
 }
 
 
-
-
+/* top blog section  */
 .top-blog{
     display: flex;
     align-items: center;
@@ -79,8 +114,7 @@ hr{
 }
 
 
-
-
+/* Lates Course section two  */
 .sec-two{
     background-color: #FFFF;
     margin-top: 30px;
@@ -125,7 +159,7 @@ hr{
     
 }
 
-
+ /* footer section  */
 footer{
     display: flex;
     justify-content: center;
