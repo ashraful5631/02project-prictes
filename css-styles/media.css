@@ -1,0 +1,76 @@
+@media only screen and (max-width: 480px) {
+    .f-sec{
+        width: 100%;
+        height: 100%;
+    }
+    .top-player{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+        justify-content: center;
+  }
+  .blog-details{
+      text-align: center;
+  }
+  .player img{
+      padding-left: 0%;
+  }
+    .main-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .top-blog{
+        flex-direction: column;
+    }
+    .sec-two{
+        width: 100%;
+    }
+    .latest-course{
+        flex-direction: column;
+    }
+    .corse img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .f-sec{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .top-player{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .player{
+        flex-direction: column;
+        justify-content: center;
+  }
+ 
+    .sec-two{
+    width: 100%;
+    }
+    .corse {
+        margin: 0px 15px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1312px) {
+    .f-sec{
+        width: 80%;
+        height: 80%;
+        background-color: #FFFF;
+    }
+
+    .sec-two{
+        width: 80%;
+        height: 80%;
+        }
+        
+        footer div{
+         width: 80%;
+        }
+}
